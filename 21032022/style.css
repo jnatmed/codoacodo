@@ -1,0 +1,21 @@
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+   }
+   p::before {
+    padding-right: 5px;
+   }
+   [lang="en-GB"]::before {
+    content: url('imagen de una bandera british-flag.png');
+   }
+   [lang="fr"]::before {
+    content: url('imagen de una bandera french-flag.png');
+   }
+
+.output {
+    display: flex;
+    flex-flow:column;
+    
+    flex-direction: column-reverse;   
+    flex-wrap: wrap-reverse;
+
+}
